@@ -1,19 +1,19 @@
 /*Define your font styles here*/
 @font-face {
 	font-family: "CrimsonPro";
-	src: url('CrimsonPro-Light.ttf') format('truetype');
+	src: url('font/CrimsonPro-Light.ttf') format('truetype');
 }
 @font-face {
 	font-family: "Display";
-	src: url("Cinzel-ExtraBold.ttf") format('truetype');
+	src: url("font/Cinzel-ExtraBold.ttf") format('truetype');
 }
 @font-face {
 	font-family: "Bold";
-	src: url("CrimsonPro-Bold.ttf") format('truetype');
+	src: url("font/CrimsonPro-Bold.ttf") format('truetype');
 }
 @font-face {
 	font-family: "Semi";
-	src: url("CrimsonPro-SemiBold.ttf") format('truetype');
+	src: url("font/CrimsonPro-SemiBold.ttf") format('truetype');
 }
 
 /*Style your page here*/

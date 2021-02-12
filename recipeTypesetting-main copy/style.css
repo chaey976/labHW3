@@ -1,0 +1,187 @@
+/*Define your font styles here*/
+@font-face {
+	font-family: "CrimsonPro";
+	src: url('CrimsonPro-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: "Display";
+	src: url("Cinzel-ExtraBold.ttf") format('truetype');
+}
+@font-face {
+	font-family: "Bold";
+	src: url("CrimsonPro-Bold.ttf") format('truetype');
+}
+@font-face {
+	font-family: "Semi";
+	src: url("CrimsonPro-SemiBold.ttf") format('truetype');
+}
+
+/*Style your page here*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: CrimsonPro;
+	background-color: #E7EDB3;
+}
+
+.therecipe {
+	width: 100%;
+	margin: 2em auto;
+	max-width: 800px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 5px;
+	color: #53383A;
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+#recipe-title {
+	color: #fff;
+	margin: 0;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+	padding-left: 1.5em;
+	padding-top: 4.5em;
+	padding-bottom: 2..5em;
+	margin-bottom: 1.5em;
+	font-family: Display;
+	letter-spacing: 0.5px;
+	background-image: url(parfait.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 0 -15em;
+	height: 7.5em;
+	width: 100%;
+}
+
+.bio {
+	padding-top: 0.5em;
+	padding-left: 3em;
+	line-height: 2;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule-style: none;
+}
+
+.bio li {
+	list-style: none;
+}
+
+em {
+	font-style: italic;
+}
+
+b {
+	font-family: Bold;
+}
+
+.recipe-ingredients {
+	width: 280px;
+	margin-right: 3.5em;
+	margin-bottom: 2.5em;
+	float: left;
+}
+
+.recipe-ingredients h3 {
+	margin-left: 3em;
+	margin-top: 2em;
+	font-family: Semi;
+	font-size: 1em;
+}
+
+.ingdet {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ingdet li{
+	line-height: 2;
+	padding-left: 3em;
+	margin: 0;
+}
+
+.ingdet li:nth-child(odd) {
+	background-color: #eee;
+}
+
+.directions {
+	margin-top: 2.1em;
+	padding-right: 2.5em;
+	padding-bottom: 2.5em;
+	padding-left: 1.5em;
+}
+
+.directions h3 {
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-family: Semi;
+}
+
+ol li {
+	text-align: justify;
+	margin-bottom: 1em;
+}
+
+.nutrition-facts {
+	padding-left: 5em;
+}
+
+.nutrition-facts h3 {
+	font-family: Semi;
+	margin-top: 2em;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.nutrition-facts li {
+	list-style: none;
+	line-height: 1.3;
+}
+
+.pt1 {
+	column-count: 2;
+	column-gap: 40px;
+	column-rule-style: none;
+}
+
+.blockquote {
+	padding-top: 0.3em;
+	padding-bottom: 1.5em;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+.border {
+	border: 3px solid #B0C400;
+
+}
+.sugg {
+	padding-top: 1.5em;
+	padding-left: 1.5em;
+	padding-bottom: 0.5em;
+}
+
+.sugg li {
+	line-height: 1.2;
+}
+
+.var {
+	padding-left: 1.5em;
+	padding-top: 0.5em;
+	padding-bottom: 2.5em;
+}
+
+.var li {
+	line-height: 1.3;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 3em;
+}
